@@ -1,0 +1,140 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Store</title>
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      background: #fff;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="honesty.html">Honesty</a>
+    </nav>
+
+    <h1>Welcome to My Product Store</h1>
+  </header>
+
+  <main class="product-grid">
+    <!-- 9 branded watch cards -->
+    <div class="card">
+      <img src="pics/1.jpg" alt="Rolex Submariner Date" />
+      <h2>Rolex Submariner Date</h2>
+      <p>Legendary diving watch with timeless design.</p>
+      <p><strong>$9,995.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/2.jpg" alt="Omega Seamaster 300M" />
+      <h2>Omega Seamaster 300M</h2>
+      <p>The iconic James Bond dive watch.</p>
+      <p><strong>$5,200.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/3.jpg" alt="TAG Heuer Carrera Sport" />
+      <h2>TAG Heuer Carrera Sport</h2>
+      <p>Sporty chronograph with racing heritage.</p>
+      <p><strong>$4,300.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/10.jpg" alt="Casio G-Shock Mudmaster" />
+      <h2>Casio G-Shock Mudmaster</h2>
+      <p>Tough, rugged, built for adventure.</p>
+      <p><strong>$399.99</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/5.jpg" alt="Fossil Gen 6 Smartwatch" />
+      <h2>Fossil Gen 6 Smartwatch</h2>
+      <p>Smart performance meets stylish design.</p>
+      <p><strong>$299.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/11.jpg" alt="Garmin Forerunner 955" />
+      <h2>Garmin Forerunner 955</h2>
+      <p>Advanced GPS running watch with training tools.</p>
+      <p><strong>$499.99</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/13.jpg" alt="Apple Watch Series 9" />
+      <h2>Apple Watch Series 9</h2>
+      <p>Modern smartwatch for health, fitness & style.</p>
+      <p><strong>$399.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/14.jpg" alt="Tissot PRX Powermatic 80" />
+      <h2>Tissot PRX Powermatic 80</h2>
+      <p>Retro-inspired automatic with Swiss precision.</p>
+      <p><strong>$675.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/15.jpg" alt="Rolex Submariner" />
+      <h2>Rolex Submariner</h2>
+      <p>Iconic dive watch known for luxury and durability.</p>
+      <p><strong>$9,500.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/16.jpg" alt="Omega Speedmaster Moonwatch" />
+      <h2>Omega Speedmaster Moonwatch</h2>
+      <p>The legendary chronograph worn on the moon.</p>
+      <p><strong>$6,300.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/17.jpg" alt="TAG Heuer Carrera" />
+      <h2>TAG Heuer Carrera</h2>
+      <p>Sporty elegance with motor-racing heritage.</p>
+      <p><strong>$3,200.00</strong></p>
+    </div>
+
+    <div class="card">
+      <img src="pics/18.jpg" alt="Seiko Prospex Diver" />
+      <h2>Seiko Prospex Diver</h2>
+      <p>Reliable Japanese automatic for serious divers.</p>
+      <p><strong>$550.00</strong></p>
+    </div>
+  </main>
+
+  <footer>&copy; 2025 Dhanuth Fernando</footer>
+</body>
+
+</html>
